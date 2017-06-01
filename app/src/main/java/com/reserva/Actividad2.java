@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.TextView; 
 import android.widget.Toast;
 
 import java.io.File;
@@ -88,7 +88,7 @@ public class Actividad2 extends Activity {
 //		if (mExternalStorageWriteable == true) {
 //
 //			// Creamos una carpeta "MisBD" dentro del directorio "DCIM"
-//			// Con el método "mkdirs()" creamos el directorio si es necesario
+//			// Con el mï¿½todo "mkdirs()" creamos el directorio si es necesario
 //			File path = new File(Environment.getExternalStoragePublicDirectory(
 //					Environment.DIRECTORY_DCIM), "MisBD");
 //			path.mkdirs();
@@ -125,11 +125,11 @@ public class Actividad2 extends Activity {
 //			// Borramos el archivo
 ////			file.delete();
 //
-//			// O lo borramos cuando termine la ejecución del programa
+//			// O lo borramos cuando termine la ejecuciï¿½n del programa
 ////			file.deleteOnExit();
 //
-//			// Al borrar el archivo el directorio queda vacío
-//			// y para borrarlo podríamos usar el siguiente código
+//			// Al borrar el archivo el directorio queda vacï¿½o
+//			// y para borrarlo podrï¿½amos usar el siguiente cï¿½digo
 ////			new File("/sdcard/DCIM/MisBD").delete();
 //
 //		} else {
